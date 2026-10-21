@@ -1,0 +1,67 @@
+.home-container {
+    max-width: 750px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.home-title {
+    text-align: center;
+    background-color: greenyellow;
+    padding: 15px;
+    border-radius: 14px;
+    font-size: 32px;
+}
+
+.problem-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.problem-card {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 18px 22px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #222;
+    background-color: white;
+    transition: 0.2s ease;
+}
+
+.problem-card:hover {
+    border-color: #84cc16;
+    background-color: #f7fee7;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.problem-number {
+    background-color: #ecfccb;
+    color: #3f6212;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.problem-info {
+    flex: 1;
+}
+
+.problem-info h2 {
+    font-size: 18px;
+    margin: 0 0 7px;
+}
+
+.problem-info span {
+    font-size: 13px;
+    color: #777;
+}
+
+.problem-arrow {
+    font-size: 24px;
+    color: #65a30d;
+}

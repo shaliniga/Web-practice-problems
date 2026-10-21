@@ -1,11 +1,19 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './Home';
 import QrCode from './components/QrCode';
+
 
 function App() {
   return (
     <>
-      <h1>Web practice problems</h1>
-      <QrCode />
+      <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/qr-code' element={<QrCode/>}/>
+      </Routes>
+      </BrowserRouter>
+      
     </>
   )
 }
