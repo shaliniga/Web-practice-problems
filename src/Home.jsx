@@ -4,7 +4,8 @@ import './styles/Home.css';
 
 const problems = [
     { id: 1, title: 'QR Code Generator', path: '/qr-code' },
-    { id:2, title: 'Blog Preview Card', path:'/blog-card'}
+    { id:2, title: 'Blog Preview Card', path:'/blog-card'},
+    { id:3, title: 'Social Link', path:'/social-link'}
    
 ];
 

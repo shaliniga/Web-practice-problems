@@ -1,0 +1,62 @@
+.social-container{
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.social-card{
+    background-color: rgb(54, 54, 54);
+    border-radius: 15px;
+    padding: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.social-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(31, 31, 31);
+    color: aliceblue;
+    font-weight: 700;
+}
+
+.social-avatar {
+    display: block;
+    width: 58px;
+    height: 58px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 18px;
+}
+
+.social-card h1 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 6px;
+}
+
+.social-card h4 {
+    color: #c5f82a;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 0 20px;
+}
+
+.social-card p {
+    color: #e0e0e0;
+    font-size: 14px;
+    margin: 0 0 18px;
+}
